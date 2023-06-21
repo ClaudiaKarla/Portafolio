@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../inicio/n.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+}
+
+.inicio{
+    margin-top: 80px;
+}
+
+.ocupacion{
+    margin-top: 45px;
+    color: #ff006e;
+    display:flex;
+    text-align: right;
+    justify-content: right;
+    font-family: 'Too Freakin Cute Demo', sans-serif;
+    animation: animate 3s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform:translateY(-20px);
+    }
+}
+
+
+.lenguaje{
+    margin-top: 35px;
+    color: #d8e2dc;
+    font-size: 20px;
+    font-family: 'Bangalore', sans-serif;
+}
+
+.contacto{
+    margin-top: 50px;
+}
+
+.links{
+    margin-top: 250px;
+    text-decoration: none;
+    font-size: 2.5rem;    
+    /* font-family: 'Merry Christmas Flake', sans-serif; */
+    /* font-family: 'BM neco', sans-serif; */
+}
+
+.Uno a{
+    position:absolute;
+    font-family: 'AsmatFont2007', sans-serif;
+    color: #1282a2;
+    margin-left: -7%;
+    margin-top: 0px;
+    text-decoration: none;
+    animation: Uno 3s ease-in-out infinite;
+}
+
+.borde{
+    color: #eeeeee;
+    font-family: 'AsmatFont2007', sans-serif;
+    text-shadow: 
+    -1px -1px 0 transparent,
+    1px -1px 0 transparent,
+    1px 1px 0 transparent,
+    -1px 1px 0 transparent;
+}
+
+@keyframes Uno {
+    0%, 100%{
+        clip-path: polygon(
+            0%  47%,
+            10% 48%,
+            33% 54%,
+            54% 68%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    50%{
+        clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+        );
+    }
+}
+
+.Dos a{
+    text-decoration: none;
+    background: #000;
+    background: radial-gradient(#d7263d, #000);
+    font-size: 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* font-family: 'Advanced Dot Digital-7', sans-serif; */
+    /* font-family: 'Digit Square', sans-serif; */
+    /* font-family: 'Epical Glory', sans-serif; */
+    /* font-family: 'Cheer Forever', sans-serif; */
+    /* font-family: 'New Disney', sans-serif; */
+    font-family: 'Play Leaves Personal Use', sans-serif;
+} 
+  a:hover{
+    color: #adb5bd;
+  }
+
+
+
+.bienvenida h1{  
+    background: #000;
+    background: radial-gradient(#fee440, #000);
+    font-size: 5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Parry Hotter', sans-serif;
+}
+
+
+.bienvenida h4{
+    display: block;
+    font-family: monospace; 
+    white-space: nowrap;
+    border-right: 5px solid;
+    width: 38ch;
+    color: white;
+
+    animation: typing 5s
+    steps(38), 
+    blink .5s infinite step-end alternate;  
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from{width: 0;}
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+.linkedin img{
+    position: absolute;
+    height: 40px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 190px;
+}
+
+.github img{
+    position: absolute;
+    height: 40px;
+    width: auto;
+    margin-top: 75px;
+    margin-left: 225px;
+}
+
+.cards{
+    margin-top: 45px;
+}
+
+.card1{
+    position: absolute;
+    margin-left: -120px;
+}
+
+.card2{
+    display: inline-block;
+}
+
+.card3{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.proyectos{
+    display: flex;
+    margin-top: 130px;
+    width: 480px;
+    height: 40px;
+    font-family: 'Digit Square', sans-serif;
+    color: #168aad;
+    font-size: 40px;
+    line-height: 38.5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+}
+ul,p{
+margin: 0;
+}
+@keyframes cambiar{
+    0%{
+        margin-top: 0;
+    }
+    20%{
+        margin-top: 0;
+    }
+    25%{
+        margin-top: -40px;
+    }
+    50%{
+        margin-top:-40px;
+    }
+    55%{
+        margin-top: -80px;
+    }
+    80%{
+        margin-top: -80px;
+    }
+    85%{
+        margin-top: -40px;
+    }
+    95%{
+        margin-top: -40px;
+    }
+    100%{
+        margin-top:0;
+    }
+}
+
+
+/*
+para que elt exto gire
+*/
+/* .spinning-text-wrapper{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.spinning-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    animation: spin 50s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.spinning-text h1{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform-origin: 0 300px;
+} */
+
+button{
+    background: black ;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*por detras del boton*/
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        #850085, #cc3333, #023e7d, #850085, #cc3333, #023e7d
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    filter:blur(8px);
+    transition: .3s;
+    animation: glowing 20s linear infinite();
+}
+
+button:hover {
+    background: none;
+    transform: scale(1.3);
+}
+
+
+
+
+@keyframes glowing{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}

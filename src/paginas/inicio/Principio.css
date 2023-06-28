@@ -4,13 +4,304 @@
 }
 
 body{
-    background-image: url("../inicio/n.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #0c192c;
     display: flex;
     flex-direction:column;
     align-items:center;
-    color:white;
+    
+}
+
+.font{
+    position:fixed;
+    display: flex;
+    top: -50%;
+    font-size: 39px;
+    justify-content: center;
+    margin-top:22%;
+    margin-left: -25%;
+    margin-right: 0%;
+    user-select: none;
+    cursor: default;   
+    transform: rotate(-27deg);
+}
+
+.font .uno{
+    margin-right:20px;
+}
+.uno:hover{
+    transition: 0s;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .dos{
+    margin-left:1%;
+}
+.dos:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .tres{
+    margin-left:1%;
+}
+.tres:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .cuatro{
+    margin-left:1%;
+}
+.cuatro:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .cinco{
+    margin-left:1%;
+}
+.cinco:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .seis{
+    margin-left:1%;
+}
+.seis:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .siete{
+    margin-left:1%;
+}
+.siete:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .ocho{
+    margin-left:1%;
+}
+.ocho:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .nueve{
+    margin-left:1%;
+}
+.nueve:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .diez{
+    margin-left:1%;
+}
+.diez:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .once{
+    margin-left:1%;
+}
+.once:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .doce{
+    margin-left:1%;
+}
+.doce:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .trece{
+    margin-left:1%;
+}
+.trece:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .catorce{
+    margin-left:1%;
+}
+.catorce:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .quince{
+    margin-left:1%;
+}
+.quince:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .dieciseis{
+    margin-left:1%;
+}
+.dieciseis:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .diecisiete{
+    margin-left:1%;
+}
+.diecisiete:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .dieciocho{
+    margin-left:1%;
+}
+.dieciocho:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .diecinueve{
+    margin-left:1%;
+}
+.diecinueve:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veinte{
+    margin-left:1%;
+}
+.veinte:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintiuno{
+    margin-left:1%;
+}
+.veintiuno:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintidos{
+    margin-left:1%;
+}
+.veintidos:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintidos{
+    margin-left:1%;
+}
+.veintidos:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintitres{
+    margin-left:1%;
+}
+.veintitres:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veinticuatro{
+    margin-left:1%;
+}
+.veinticuatro:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veinticinco{
+    margin-left:1%;
+}
+.veinticinco:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintiseis{
+    margin-left:1%;
+}
+.veintiseis:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintisiete{
+    margin-left:1%;
+}
+.veintisiete:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintiocho{
+    margin-left:1%;
+}
+.veintiocho:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .veintinueve{
+    margin-left:1%;
+}
+.veintinueve:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
+}
+
+.font .treinta{
+    margin-left:1%;
+}
+.treinta:hover{
+    transition: 0%;
+    color:#ff006e;
+    text-shadow: 0 0 120px #ff006e;
 }
 
 .inicio{
@@ -18,8 +309,8 @@ body{
 }
 
 .ocupacion{
-    margin-top: 45px;
-    color: #ff006e;
+    margin-top: 40px;
+    color: #2ec4b6;
     display:flex;
     text-align: right;
     justify-content: right;
@@ -52,18 +343,17 @@ body{
 }
 
 .links{
+    position:relative;
     margin-top: 250px;
     text-decoration: none;
     font-size: 2.5rem;    
-    /* font-family: 'Merry Christmas Flake', sans-serif; */
-    /* font-family: 'BM neco', sans-serif; */
 }
 
 .Uno a{
     position:absolute;
     font-family: 'AsmatFont2007', sans-serif;
     color: #1282a2;
-    margin-left: -7%;
+    margin-left: -14.5%;
     margin-top: 0px;
     text-decoration: none;
     animation: Uno 3s ease-in-out infinite;
@@ -115,18 +405,11 @@ body{
     font-size: 3rem;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    /* font-family: 'Advanced Dot Digital-7', sans-serif; */
-    /* font-family: 'Digit Square', sans-serif; */
-    /* font-family: 'Epical Glory', sans-serif; */
-    /* font-family: 'Cheer Forever', sans-serif; */
-    /* font-family: 'New Disney', sans-serif; */
     font-family: 'Play Leaves Personal Use', sans-serif;
 } 
   a:hover{
     color: #adb5bd;
   }
-
-
 
 .bienvenida h1{  
     background: #000;
@@ -136,7 +419,6 @@ body{
     -webkit-background-clip: text;
     font-family: 'Parry Hotter', sans-serif;
 }
-
 
 .bienvenida h4{
     display: block;
@@ -197,13 +479,14 @@ body{
 
 .proyectos{
     display: flex;
+    justify-content: center;
     margin-top: 130px;
     width: 480px;
-    height: 40px;
-    font-family: 'Digit Square', sans-serif;
+    height: 42px;
+    font-family: 'Shine of Love', sans-serif;
     color: #168aad;
-    font-size: 40px;
-    line-height: 38.5px;
+    font-size: 45px;
+    line-height: 41px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -248,46 +531,6 @@ margin: 0;
     }
 }
 
-
-/*
-para que elt exto gire
-*/
-/* .spinning-text-wrapper{
-    position: relative;
-    width: 600px;
-    height: 600px;
-    background-color: transparent;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size:2rem;
-    font-weight: bold;
-}
-
-.spinning-text{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    animation: spin 50s linear infinite;
-}
-
-@keyframes spin{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
-.spinning-text h1{
-    position: absolute;
-    top:0;
-    left: 50%;
-    transform-origin: 0 300px;
-} */
-
 button{
     background: black ;
     margin-top: 15px;
@@ -326,9 +569,6 @@ button:hover {
     background: none;
     transform: scale(1.3);
 }
-
-
-
 
 @keyframes glowing{
     0%{
